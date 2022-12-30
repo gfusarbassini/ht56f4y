@@ -1,0 +1,107 @@
+---
+---
+
+@charset "utf-8";
+@import "font";
+@import "colors";
+
+// Media Query Ranges
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1200px !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$extra-large-and-up: "only screen and (min-width : #{$large-screen-up})" !default;
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+html,
+body {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  z-index: -1;
+}
+
+
+
+
+nav.sidenav{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 80px;
+  background-color: var(--primary);
+  color: var(--on-primary);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: max-width 0.3s ease-in-out;
+  padding: 20px 0px;
+
+  .nav-zone{
+    display: flex;
+    flex-direction: column;
+    li{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 8px 12px;
+      .nav-icon{
+        flex-shrink: 0;
+        display: block;
+        width: 56px;
+        height: 36px;
+        border-radius:28px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        &.active{
+          background-color: rgba(#fff, 0.2);
+        }
+        img{
+          width: 32px;
+        }
+        i {
+          font-size: 24px;
+        }
+      }
+      .nav-text{
+        display: block;
+        flex-shrink: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        &.expanded{
+          opacity: 1;
+        }
+        //display: none;
+      }
+    }
+  }
+
+}

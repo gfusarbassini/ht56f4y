@@ -1,0 +1,20 @@
+<nav class="sidenav">
+{{data.menu}}
+  {% for zone in site.data.menu %}
+    <ul class="nav-zone">
+        {% for item in zone.nav-zone %}
+          <li>
+            <span class="nav-icon">
+              {% if item.icon %}
+                <i class="material-symbols-outlined">{{item.icon}}</i>
+              {% endif %}
+              {% if item.icon-url%}
+                <img src="img/{{ item.icon-url}}">
+              {% endif %}
+            </span>
+            <span class="nav-text">{{item.text}}</span>
+          </li>
+        {% endfor %}
+    </ul>
+  {% endfor %}
+</nav>

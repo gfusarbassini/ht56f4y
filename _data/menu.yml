@@ -1,0 +1,17 @@
+- nav-zone:
+  - text: PLANCKS 2023
+    icon-url: "plancks-white.png"
+- nav-zone:
+  - text: Schedule
+    icon: calendar_month
+  - text: Organizing Committee
+    icon: groups
+  - text: Speakers
+    icon: forum
+  - text: Sponsors
+    icon: sell
+  - text: Preliminaries
+    icon: quiz
+- nav-zone:
+  - text: FAQ
+    icon: help
