@@ -1,0 +1,24 @@
+title: PLANCKS
+sub-title: 2023
+subsub-title: MILAN
+cards:
+  style: big-text small-title icon-top
+  items:
+    - title: Where?
+      content:
+        - text: Milan
+      icon: explore
+      style: secondary
+      size: l4
+    - title: When?
+      content:
+        - text: 12<span class="super">th</span> - 16<span class="super">th</span> May
+      icon: event
+      style: secondary
+      size: l4
+    - title: Who?
+      content:
+        - text: 50 teams
+      icon: groups_2
+      style: secondary
+      size: l4

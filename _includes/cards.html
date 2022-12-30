@@ -1,0 +1,15 @@
+<div class="row">
+{% for card in include.data.items %}
+  <div class="col {{card.size}}">
+    <div class="card {{card.style}} {{include.data.style}}">
+      <h3>{{card.title}}</h3>
+      {% if card.icon %}
+        <i class="material-symbols-outlined">{{card.icon}}</i>
+      {% endif %}
+      {% for item in card.content %}
+        <p>{{item.text}}</p>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
+</div>
