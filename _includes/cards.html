@@ -1,5 +1,6 @@
+{% for row in include.data.rows %}
 <div class="row">
-{% for card in include.data.items %}
+{% for card in row.items %}
   <div class="col {{card.size}}">
     <div class="card {{card.style}} {{include.data.style}}">
       <h3>{{card.title}}</h3>
@@ -13,3 +14,4 @@
   </div>
 {% endfor %}
 </div>
+{% endfor %}

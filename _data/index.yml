@@ -5,22 +5,35 @@ background: skyline.png
 logo: plancks-blue.png
 cards:
   style: big-text small-title icon-top
-  items:
-    - title: Where?
-      content:
-        - text: Milan
-      icon: explore
-      style: secondary
-      size: l4 m4 s12
-    - title: When?
-      content:
-        - text: 12<span class="super">th</span> - 16<span class="super">th</span> May
-      icon: event
-      style: secondary
-      size: l4 m4 s12
-    - title: Who?
-      content:
-        - text: 50 teams
-      icon: groups_2
-      style: secondary
-      size: l4 m4 s12
+  rows:
+    - items:
+      - title: Where?
+        content:
+          - text: Milan
+        icon: explore
+        style: secondary
+        size: l4 m4 s12
+      - title: When?
+        content:
+          - text: 12<span class="super">th</span> - 16<span class="super">th</span> May
+        icon: event
+        style: secondary
+        size: l4 m4 s12
+      - title: Who?
+        content:
+          - text: 50 teams
+        icon: groups_2
+        style: secondary
+        size: l4 m4 s12
+
+sections:
+  - title: What's PLANCKS?
+    text: "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet. In maximus, lorem eu fringilla lacinia, purus massa varius orci, et eleifend augue sapien at mauris. Nam consectetur at eros nec dignissim. Cras euismod lorem id velit posuere mattis. Duis fringilla justo nec cursus dictum. Integer congue placerat lacus, et facilisis justo ornare quis. Nulla rhoncus dolor ac libero scelerisque facilisis eget et orci. Mauris semper sagittis mauris, ac dapibus tortor porttitor eget. Sed commodo interdum lectus, quis tempor elit consectetur in.
+
+Nunc ligula ante, tincidunt sed hendrerit eu, tincidunt a nibh. Sed eleifend tincidunt nisi eget porttitor. Nulla non nisi sed eros finibus tincidunt. Phasellus quis nisi ut augue viverra euismod sit amet eget nisi. Fusce euismod risus at felis tincidunt condimentum. Sed imperdiet ornare lectus vel ornare. Vivamus fringilla metus id vulputate aliquam. Duis a neque pretium, tempor tellus ac, varius ante.
+
+Vivamus tellus ligula, molestie quis luctus id, tempor ut risus. Vestibulum viverra pretium nisl, non consectetur ipsum. Cras sit amet convallis dolor. Vestibulum id mauris vitae justo laoreet sollicitudin. Quisque sit amet mauris sit amet ligula sodales euismod quis et neque. Integer lorem magna, faucibus a tristique ac, pellentesque sit amet ante. Aliquam auctor risus eu sem euismod, vel feugiat felis vehicula. Sed in malesuada ipsum. Morbi enim elit, posuere ac diam et, fermentum dictum metus.
+
+Fusce vestibulum metus at est laoreet consequat. Curabitur semper blandit sagittis. Etiam tristique nisi urna, id efficitur nulla ultricies vel. Duis venenatis tincidunt neque eu lacinia. Donec vel dui ultricies, eleifend felis id, consequat arcu. Fusce molestie metus vel fringilla aliquam. Sed vehicula malesuada nisl vel consequat. Aenean facilisis consectetur dui, at consequat dolor molestie at.
+
+Proin cursus enim in eleifend dignissim. Praesent sit amet metus ligula. Integer ante velit, elementum ut elementum dapibus, finibus eu urna. Aliquam viverra lorem a eros rutrum, id tincidunt dui dapibus. Aliquam consequat mi in lectus rutrum varius. Mauris faucibus eget lorem vehicula consectetur. Praesent gravida leo pretium tortor finibus aliquam. Aenean dictum massa tincidunt nisi imperdiet posuere. Praesent id orci ac ligula molestie hendrerit. Nulla facilisi."

@@ -4,21 +4,21 @@
     icon-url: "plancks-white.png"
 - nav-zone:
   - text: Schedule
-    url: "schedule"
+    url: "/schedule"
     icon: calendar_month
   - text: Organizing Committee
-    url: "organizing_committee"
+    url: "/organizing_committee"
     icon: groups
   - text: Speakers
-    url: "speakers"
+    url: "/speakers"
     icon: forum
   - text: Sponsors
-    url: "sponsors"
+    url: "/sponsors"
     icon: sell
   - text: Preliminaries
-    url: "preliminaries"
+    url: "/preliminaries"
     icon: quiz
 - nav-zone:
   - text: FAQ
-    url: "faq"
+    url: "/faq"
     icon: help
