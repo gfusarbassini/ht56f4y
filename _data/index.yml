@@ -4,7 +4,7 @@ subsub-title: MILAN
 background: skyline.png
 logo: plancks-blue.png
 cards:
-  style: big-text small-title icon-top
+  style: big-text small-title icon-top fullheight
   rows:
     - items:
       - title: Where?

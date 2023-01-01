@@ -5,6 +5,25 @@ title: Schedule
 ---
 
 {% include title.html data=site.data.schedule.title %}
-<div class="container">
-  {% include cards.html data=site.data.schedule.timetable %}
+
+
+<div id="schedule" class="row">
+  {% for day in site.data.schedule.schedule %}
+  <div class="col l3 m5 s15">
+    <div class="schedule-header card secondary">
+      <h3>Day {{day.day}}</h3>
+      <h2>{{day.date}}</h2>
+    </div>
+    <div class="activity-container collapsed">
+    {% for activity in day.activities %}
+      <div class="schedule-activity card primary">
+        <div class="activity-time"><i class="material-symbols-outlined">schedule</i>{{activity.time}}</div>
+        <div class="activity-location"><i class="material-symbols-outlined">location_on</i>{{activity.location}}</div>
+        <div class="activity-title">{{activity.title}}</div>
+        <div class="activity-description">{{activity.description}}</div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
 </div>

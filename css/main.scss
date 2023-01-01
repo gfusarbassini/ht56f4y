@@ -187,6 +187,11 @@ nav.sidenav{
 
 // CONTENT MANAGEMENT
 
+.super{
+  vertical-align: super;
+  font-size: 70%;
+}
+
 .container{
   box-sizing: border-box;
   padding: 12px;
@@ -202,12 +207,13 @@ nav.sidenav{
   position: relative;
   align-items: stretch;
   align-content: space-between;
+  justify-content: center;
 }
 
 .col{
   box-sizing: border-box;
   padding: 6px 0;
-  .card{
+  .card.fullheight{
     height: 100%;
   }
 }
@@ -220,58 +226,110 @@ nav.sidenav{
   color: $primary !important;
 }
 
-@for $i from 1 through 12 {
-  $perc: unquote((100 * $i / 12)+"%");
+@for $i from 1 through 15 {
+  $perc: unquote((100 * $i / 15)+"%");
 
   .s#{$i}{
       width: $perc;
+
   }
 }
 
-@for $i from 1 through 12 {
-  $perc: unquote((100 * $i / 12)+"%");
+@for $i from 1 through 15 {
+  $perc: unquote((100 * $i / 15)+"%");
 
   .m#{$i}{
     @media #{$medium-and-up}{
       width: $perc;
+
     }
   }
 }
-@for $i from 1 through 12 {
-  $perc: unquote((100 * $i / 12)+"%");
+@for $i from 1 through 15 {
+  $perc: unquote((100 * $i / 15)+"%");
 
   .l#{$i}{
     @media #{$large-and-up}{
       width:$perc;
+
     }
   }
 }
 
-.primary-gradient{
-  background-image: linear-gradient(rgba($primary, 0), rgba($primary, 0.3));
-  position: absolute;
-  top:0;
-  bottom:0;
-  left: 0;
-  right: 0;
-  z-index:0;
-}
 
-#title-card{
+
+.page-title{
+  @extend .card;
   overflow: hidden;
-  min-height: 30rem;
+  min-height: 20vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+
+
+  &::before{
+    background-image: linear-gradient(rgba($primary, 0), rgba($primary, 0.3));
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index:0;
+    content: '';
+
+  }
+
+  &::after{
+    background-image: url("/img/skyline.png");
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    content: '';
+    bottom: -100px;
+    left:-20px;
+    right: -20px;
+    mix-blend-mode:soft-light;
+    background-position: bottom;
+    background-clip: content-box;
+    background-size: cover;
+  }
 
   .content{
     max-width: 1200px;
     z-index: 2;
     margin: auto;
+  }
   .title-text{
+
+    z-index: 2;
     h1{
-      font-size: 11vw;
+      font-size: 6vw;
+      font-weight: 600;
+      padding: 3rem;
+    }
+
+    @media #{$medium-and-down}{
+      h1{
+        font-size: 11vw;
+        padding: 5vw;
+      }
+    }
+
+    @media #{$small-and-down}{
+      h1{
+        padding: 0px;
+      }
+    }
+  }
+  .title-image~.title-text{
+    h1{
+      font-size: clamp(5rem, 11vw, 10rem);
       font-weight: 800;
+      padding: 0rem;
     }
     h2{
       line-height: 5vw;
@@ -316,17 +374,6 @@ nav.sidenav{
   }
 
 
-  .bg-image{
-    position: absolute;
-    bottom: -100px;
-    left:-20px;
-    right: -20px;
-    img{
-      opacity: 1;
-      mix-blend-mode:soft-light;
-    }
-  }
-}
 
 
 .text-section{
@@ -362,13 +409,74 @@ nav.sidenav{
   }
 }
 
-.page-title{
-  @extend .card;
-  @extend .primary;
 
-  h1{
-    font-size: 6rem;
-    font-weight: 600;
-    padding: 3rem;
+
+#schedule{
+  .schedule-header{
+    padding: 1.2rem 2rem;
+
+    h2{
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+
+    h3{
+      font-weight: 400;
+      font-size: 1rem;
+    }
   }
+  @media #{$medium-and-down}{
+  .activity-container{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+  }
+  }
+  .schedule-activity{
+    padding: 2rem;
+
+  .activity{
+
+
+    &-time{
+      color: black;
+      font-weight: 600;
+      font-size: 1.5rem;
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+
+      i{
+        font-size: 1.5rem;
+        width: 2rem
+      }
+    }
+
+    &-location{
+      color: black;
+      display: inline-flex;
+
+      flex-direction: row;
+      align-items: center;
+      i{
+        width: 1.8rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    &-title{
+      color: black;
+      font-size:1.5rem;
+      font-weight: 700;
+      line-height: 1.5rem;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+
+    &-description{
+      font-size: 0.93rem;
+      color: black;
+    }
+  }
+}
 }

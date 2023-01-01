@@ -32,7 +32,7 @@ $(document).ready(function () {
             return +a*0.45
     });
     startingColorString = startingColor[0] + "," + startingColor[1] + "," + startingColor[2];
-    console.log(startingColor);
+
     var animationStep = function(timestamp) {
       if (!animationStart) {
         animationStart = timestamp;
@@ -45,7 +45,7 @@ $(document).ready(function () {
         var circle = "circle at " + x + "px " + y + "px";
 
         var color = "rgba(" + startingColorString + ", " + (0.3 * (1 - easing)) + ")";
-        console.log(color);
+
         var stop = 90 * easing + "%";
 
         btn.css({
@@ -64,5 +64,24 @@ $(document).ready(function () {
 
     animationFrame = window.requestAnimationFrame(animationStep);
 
+  });
+
+
+
+  $("html").on("click", ".schedule-header", function () {
+    var container = $(".activity-container", $(this).parent());
+    if (!container.hasClass("expanded")) {
+      var heights = $(".schedule-activity", container).map(
+        function () {
+          return +$(this).outerHeight(true);
+        }).get().reduce((acc, cur) => acc + cur, 0);
+      $(".activity-container.expanded").css("height", "0px").addClass("collapsed").removeClass("expanded");
+      container.css("height", heights + "px").removeClass("collapsed").addClass("expanded");
+      if ($("body").scrollTop() > $(this).offset().top) {
+        $("body").animate({ scrollTop: $(this).offset().top - 50 }, 'ease');
+      }
+    } else {
+      container.css("height", "0px").addClass("collapsed").removeClass("expanded");
+    }
   });
 });
