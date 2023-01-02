@@ -266,7 +266,9 @@ nav.sidenav{
   flex-direction: column;
   justify-content: flex-end;
 
-
+  @media #{$medium-and-down}{
+    min-height: 30vh;
+  }
 
   &::before{
     background-image: linear-gradient(rgba($primary, 0), rgba($primary, 0.3));
@@ -293,9 +295,16 @@ nav.sidenav{
     left:-20px;
     right: -20px;
     mix-blend-mode:soft-light;
-    background-position: bottom;
-    background-clip: content-box;
+    background-position-x: center;
+    background-position-y: -20px;
     background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+    @media #{$medium-and-down}{
+
+    }
   }
 
   .content{
@@ -413,27 +422,36 @@ nav.sidenav{
 
 #schedule{
   .schedule-header{
-    padding: 1.2rem 2rem;
+    padding: 1.8rem 2rem;
 
     h2{
       font-weight: 600;
       font-size: 1.5rem;
+      @media #{$medium-and-down}{
+        margin-top: 0.5rem;
+        font-size: 8vw;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
     }
 
     h3{
       font-weight: 400;
       font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
-  }
-  @media #{$medium-and-down}{
-  .activity-container{
-    height: 0px;
-    overflow: hidden;
-    transition: height 0.5s ease-in-out;
-  }
   }
   .schedule-activity{
     padding: 2rem;
+    position: relative;
+    &:not(:last-child)::after{
+        position: absolute;
+        bottom: 0px;
+        width: calc(100% - 4rem);
+        border-bottom: solid 1px $outline;
+        content: '';
+    }
 
   .activity{
 
@@ -479,4 +497,28 @@ nav.sidenav{
     }
   }
 }
+}
+
+.accordion{
+  margin: 0rem 0.5rem;
+  border-radius: 1.2rem !important;
+  overflow: hidden;
+  position: relative;
+
+   &-content{
+    margin-top: 0rem;
+
+
+    @media #{$medium-and-down}{
+        height: 0px;
+        overflow: hidden;
+        transition: height 0.5s ease-in-out;
+      }
+  }
+
+}
+
+
+.ripple{
+  background-blend-mode: hard-light;
 }

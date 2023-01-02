@@ -17,7 +17,7 @@ $(document).ready(function () {
   );
 
 
-  $("html").on("click", ".card", function(evt) {
+  $("html").on("click", ".card, .ripple", function(evt) {
     var btn = $(evt.currentTarget);
     var x = evt.pageX - btn.offset().left;
     var y = evt.pageY - btn.offset().top;
@@ -68,20 +68,29 @@ $(document).ready(function () {
 
 
 
-  $("html").on("click", ".schedule-header", function () {
-    var container = $(".activity-container", $(this).parent());
-    if (!container.hasClass("expanded")) {
-      var heights = $(".schedule-activity", container).map(
-        function () {
-          return +$(this).outerHeight(true);
-        }).get().reduce((acc, cur) => acc + cur, 0);
-      $(".activity-container.expanded").css("height", "0px").addClass("collapsed").removeClass("expanded");
-      container.css("height", heights + "px").removeClass("collapsed").addClass("expanded");
-      if ($("body").scrollTop() > $(this).offset().top) {
-        $("body").animate({ scrollTop: $(this).offset().top - 50 }, 'ease');
+  $("html").on("click", ".accordion-header", function () {
+    const mediaQuery = window.matchMedia('(max-width: 992px)')
+// Check if the media query is true
+    if (mediaQuery.matches) {
+      // Then trigger an alert
+
+      var container = $(".accordion-content", $(this).parent());
+      if (!container.hasClass("expanded")) {
+        var heights = $(container).find("> div").map(
+          function () {
+            return +$(this).outerHeight(true);
+          }).get().reduce((acc, cur) => acc + cur, 0);
+        $(".activity-container.expanded").css("height", "0px").removeClass("collapsed").addClass("expanded");
+        $(".accordion-header").removeClass("collapsed").addClass("expanded")
+        container.css("height", heights + "px").removeClass("collapsed").addClass("expanded");
+        if ($("body").scrollTop() > $(this).offset().top) {
+          $("body").animate({ scrollTop: $(this).offset().top - 50 }, 'ease');
+        }
+      } else {
+        container.css("height", "0px").addClass("collapsed").removeClass("expanded");
+        $(".accordion-header").addClass("collapsed").removeClass("expanded");
       }
-    } else {
-      container.css("height", "0px").addClass("collapsed").removeClass("expanded");
+
     }
   });
 });
