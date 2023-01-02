@@ -499,6 +499,98 @@ nav.sidenav{
 }
 }
 
+
+
+#speakers{
+  .speakers-header{
+    padding: 1.8rem 2rem;
+
+    h2{
+      font-weight: 600;
+      font-size: 1.5rem;
+      @media #{$medium-and-down}{
+        margin-top: 0.5rem;
+        font-size: 8vw;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+    }
+
+    .speaker-image{
+      max-width: clamp(10vw, 80%, 40vh);
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      img{
+        max-width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  .schedule-activity{
+    padding: 2rem;
+    position: relative;
+    &:not(:last-child)::after{
+        position: absolute;
+        bottom: 0px;
+        width: calc(100% - 4rem);
+        border-bottom: solid 1px $outline;
+        content: '';
+    }
+
+  .activity{
+
+
+    &-date{
+      color: black;
+      font-weight: 600;
+      font-size: 1.5rem;
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+
+      i{
+        font-size: 1.5rem;
+        width: 2rem
+      }
+      
+      .super{
+        vertical-align: super;
+        font-size: 70%;
+      }
+    }
+
+    &-uni{
+      color: black;
+      display: inline-flex;
+
+      flex-direction: row;
+      align-items: center;
+      i{
+        width: 1.8rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    &-title{
+      color: black;
+      font-size:1.5rem;
+      font-weight: 700;
+      line-height: 1.5rem;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+
+    &-description{
+      font-size: 0.93rem;
+      color: black;
+    }
+  }
+}
+}
+
+
 .accordion{
   margin: 0rem 0.5rem;
   border-radius: 1.2rem !important;
