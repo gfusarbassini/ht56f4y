@@ -7,13 +7,13 @@
     <ul class="nav-zone">
         {% for item in zone.nav-zone %}
           <li>
-            <a href="{{item.url | absolute_url }} ">
-              <span class="nav-icon {% if current[0] == item.url %} active {% endif %}">
+            <a href="{{site.url}}{{item.url}} ">
+              <span class="nav-icon {% if current[0] == (append: item.url %} active {% endif %}">
                 {% if item.icon %}
                   <i class="material-symbols-outlined">{{item.icon}}</i>
                 {% endif %}
                 {% if item.icon-url%}
-                  <img src="{{ '/img/' | append: item.icon-url | absolute_url }}">
+                  <img src="{{ site.url}}/img/{{item.icon-url}}">
                 {% endif %}
               </span>
               <span class="nav-text">{{item.text}}</span>

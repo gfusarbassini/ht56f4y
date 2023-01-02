@@ -281,7 +281,7 @@ nav.sidenav{
   }
 
   &::after{
-    background-image: url({{"/img/skyline.png" | absolute_url}});
+    background-image: url("{{site.url}}/img/skyline.png");
     position: absolute;
     top:0;
     bottom:0;
