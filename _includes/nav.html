@@ -1,6 +1,9 @@
 {% assign current = page.url | downcase | split: '.' %}
 
 <nav class="sidenav">
+  <div class="nav-close circular-button ripple">
+    <i class="material-symbols-outlined">close</i>
+  </div>
 {{data.menu}}
 
 {% for zone in site.data.menu %}
@@ -25,7 +28,7 @@
 </nav>
 
 <div class="mobile-nav">
-  <div class="nav-trigger ripple" >
+  <div class="nav-trigger circular-button ripple" >
     <i class="material-symbols-outlined">menu</i>
   </div>
 
