@@ -23,3 +23,21 @@
     </ul>
   {% endfor %}
 </nav>
+
+<div class="mobile-nav">
+  <div class="nav-trigger ripple" >
+    <i class="material-symbols-outlined">menu</i>
+  </div>
+
+  {% unless page.show-title != nil %}
+    <div class="site-title">
+      <a  href="{{site.url}}">
+        <div class="logo">
+          <img src="{{site.url}}/img/{{site.data.index.logo}}">
+        </div>
+        <div class="site-name">{{site.data.generic.title}}</div>
+      </a>
+    </div>
+    {% endunless %}
+    <div class="dummy"></div>
+</div>

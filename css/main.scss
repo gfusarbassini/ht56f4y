@@ -44,6 +44,7 @@ html{
 }
 body {
   background-color: $background;
+  position: relative;
   overflow-x: hidden;
   @media #{$medium-and-up}{
     width: calc(100% - 80px);
@@ -75,7 +76,7 @@ nav.sidenav{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: max-width 0.3s ease-in-out;
+  transition: max-width 0.3s ease-in-out, left 0.3s ease-in-out;
   padding: 20px 0px;
 
 
@@ -136,6 +137,71 @@ nav.sidenav{
     }
   }
 
+}
+
+.mobile-nav{
+  margin: 0rem 1rem;
+  display: none;
+
+  @media #{$small-and-down} {
+    display: flex;
+    height: 2.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 1.1rem;
+    left: 0;
+    right: 0;
+    z-index: 800;
+  }
+
+  .site-title{
+
+    a{
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      .logo img{
+        width: 7vw;
+        margin-right: 1rem;
+      }
+      .site-name{
+        font-weight: 800;
+        color: $primary;
+        font-size: 5vw;
+      }
+    }
+  }
+
+  .nav-trigger{
+    padding: 0.3rem;
+    width: 8vw;
+    height: 8vw;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 50%;
+    display: flex;
+    &:hover, &:focus{
+      background-color: rgba($outline,0.2);
+      background-blend-mode: color-burn;
+
+    }
+    i{
+      font-size: 7vw;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+  }
+
+  .dummy{
+    width: calc(8vw + 0.6rem);
+    flex-shrink: 0;
+  }
 }
 
 .card{
@@ -540,8 +606,6 @@ nav.sidenav{
     }
 
   .activity{
-
-
     &-date{
       color: black;
       font-weight: 600;
@@ -554,7 +618,7 @@ nav.sidenav{
         font-size: 1.5rem;
         width: 2rem
       }
-      
+
       .super{
         vertical-align: super;
         font-size: 70%;
@@ -614,3 +678,5 @@ nav.sidenav{
 .ripple{
   background-blend-mode: hard-light;
 }
+
+

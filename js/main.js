@@ -93,4 +93,9 @@ $(document).ready(function () {
 
     }
   });
+
+
+  $(".nav-trigger").on("click", function () {
+    $(".sidenav").css("left", 0);
+   });
 });
