@@ -251,6 +251,105 @@ nav.sidenav{
     top:1rem;
     font-size: 2rem;
   }
+
+
+  &.horizontal{
+    &.circle-image{
+
+      display: flex;
+      flex-direction: column;
+      .card-header{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: flex-start;
+        align-items: center;
+        .card-image{
+          img{
+            width: 3rem;
+            height: 3rem;
+            object-fit: scale-down;
+              border-radius: 50%;
+          }
+        }
+        .card-title{
+          flex: 1;
+          h2{
+            font-weight: 700;
+            font-size: 1.3rem;
+          }
+          .card-subtitle{
+            font-size: 0.9rem;
+            font-weight: 600;
+            opacity: 0.8;
+          }
+
+
+        }
+      }
+
+    }
+  }
+
+  &.expandable{
+    box-shadow: 0 4px 4px 0px rgba(#000, 0.0), 0px 8px 12px 6px rgba(#000, 0.0);
+    transition: box-shadow 0.5s ease-in-out;
+    .card-content{
+      display: none;
+    }
+
+    .card-header{
+      transition: all 0.3s ease;
+    }
+
+    &.opened{
+      position: fixed;
+      z-index: 999;
+      overflow-y: hide;
+
+      .trigger-close{
+        display: block;
+        z-index: 999;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(#fff,0.5);
+      }
+    }
+
+    .card-content{
+      overflow-y: scroll;
+
+
+      &::-webkit-scrollbar-track
+      {
+        background-color: transparent;
+
+      }
+
+      &::-webkit-scrollbar
+      {
+        width: 7px;
+        background-color:transparent;
+      }
+
+      &::-webkit-scrollbar-thumb
+      {
+        background-color: $primary;
+        border-radius: 3px;
+      }
+
+    }
+
+    &.shadowed{
+      box-shadow: 0 3px 20px 0px rgba(#000, 0.15), 0px 12px 40px 6px rgba(#000, 0.12);
+    }
+
+  }
 }
 
 
@@ -271,7 +370,7 @@ nav.sidenav{
 
 .super{
   vertical-align: super;
-  font-size: 70%;
+  font-size: 70% !important;
 }
 
 .container{
@@ -584,90 +683,34 @@ nav.sidenav{
 
 
 #speakers{
-  .speakers-header{
-    padding: 1.8rem 2rem;
-
-    h2{
-      font-weight: 600;
-      font-size: 1.5rem;
-      @media #{$medium-and-down}{
-        margin-top: 0.5rem;
-        font-size: 8vw;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-      }
+  .card{
+    justify-content: center;
+    height: 100%;
+  }
+  .speaker-biography{
+    margin-top: 1rem;
+  }
+  .speaker-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .speaker-date{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.3rem;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+    & > i{
+      font-size: 1.2rem;
     }
-
-    .speaker-image{
-      max-width: clamp(10vw, 80%, 40vh);
-      margin: auto;
-      display: flex;
-      flex-direction: row;
-      justify-content: right;
-      img{
-        max-width: 100%;
-        object-fit: contain;
-      }
+    & > span{
+      font-size: 1rem;
     }
   }
-  .schedule-activity{
-    padding: 2rem;
-    position: relative;
-    &:not(:last-child)::after{
-        position: absolute;
-        bottom: 0px;
-        width: calc(100% - 4rem);
-        border-bottom: solid 1px $outline;
-        content: '';
-    }
-
-  .activity{
-    &-date{
-      color: black;
-      font-weight: 600;
-      font-size: 1.5rem;
-      display: inline-flex;
-      flex-direction: row;
-      align-items: center;
-
-      i{
-        font-size: 1.5rem;
-        width: 2rem
-      }
-
-      .super{
-        vertical-align: super;
-        font-size: 70%;
-      }
-    }
-
-    &-uni{
-      color: black;
-      display: inline-flex;
-
-      flex-direction: row;
-      align-items: center;
-      i{
-        width: 1.8rem;
-        font-size: 1.2rem;
-      }
-    }
-
-    &-title{
-      color: black;
-      font-size:1.5rem;
-      font-weight: 700;
-      line-height: 1.5rem;
-      margin-bottom: 1rem;
-      margin-top: 1rem;
-    }
-
-    &-description{
-      font-size: 0.93rem;
-      color: black;
-    }
-  }
-}
 }
 
 

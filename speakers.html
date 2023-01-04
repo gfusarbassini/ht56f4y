@@ -10,22 +10,29 @@ title: Speakers
 <div id="speakers" class="row">
   {% for speaker in site.data.speakers.speakers %}
   <div class="col l5 m5 s15">
-    <div class="accordion">
-    <div class="accordion-header ripple speakers-header secondary">
-      <h2>{{speaker.name}}</h2>
-      <div class="speaker-image">
+    <div class="card ripple horizontal circle-image primary expandable">
+    <div class="card-header">
+      <div class="card-image">
         <img src="{{site.url}}/img/{{speaker.img}}" />
       </div>
-    </div>
-    <div class="accordion-content collapsed">
-      <div class="schedule-activity primary ripple">
-        <div class="activity-date"><i class="material-symbols-outlined">calendar_month</i>{{speaker.date}}</div>
-        <div class="activity-uni"><i class="material-symbols-outlined">school</i>{{speaker.uni}}</div>
-        <div class="activity-title">{{speaker.topic}}</div>
-        <div class="activity-description">{{speaker.description}}</div>
+      <div class="card-title">
+        <h2>{{speaker.name}}</h2>
+        <div class="card-subtitle">{{speaker.uni}}</div>
+      </div>
+      <div class="card-action-top">
+        <i class="material-symbols-outlined">more_vert</i>
       </div>
     </div>
+    <div class="card-content">
+      <div class="speaker-biography">{{speaker.biography}}</div>
+      <div class="speaker-title">{{speaker.topic}}</div>
+      <div class="speaker-date"><i class="material-symbols-outlined">calendar_month</i><span>{{speaker.date}}</span></div>
+      <div class="speaker-abstract">{{speaker.abstract}}</div>
     </div>
   </div>
+
+  </div>
+
+
   {% endfor %}
 </div>
