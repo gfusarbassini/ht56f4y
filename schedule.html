@@ -11,9 +11,11 @@ title: Schedule
   {% for day in site.data.schedule.schedule %}
   <div class="col l3 m5 s15">
     <div class="accordion z-depth-1">
-    <div class="accordion-header ripple schedule-header secondary">
-      <h3>Day {{day.day}}</h3>
-      <h2>{{day.date}}</h2>
+    <div class="accordion-header ripple secondary">
+      <div class="schedule-header">
+        <h3>Day {{day.day}}</h3>
+        <h2>{{day.date}}</h2>
+      </div>
     </div>
     <div class="accordion-content collapsed">
     {% for activity in day.activities %}

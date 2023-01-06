@@ -88,8 +88,8 @@ $(document).ready(function () {
           function () {
             return +$(this).outerHeight(true);
           }).get().reduce((acc, cur) => acc + cur, 0);
-        $(".accordion-content.expanded").css("height", "0px").addClass("collapsed").removeClass("expanded");
-        $(".accordion-header", container).removeClass("collapsed").addClass("expanded");
+        $(".accordion-content.expanded").css("height", "0px").removeClass("collapsed").addClass("expanded");
+        $(".accordion-header", $(this).parent()).removeClass("collapsed").addClass("expanded");
         container.css("height", heights + "px").removeClass("collapsed").addClass("expanded");
         if ($("body").scrollTop() > $(this).offset().top) {
           $("body").animate({ scrollTop: $(this).offset().top - 50 }, 'ease');
@@ -129,12 +129,11 @@ $(document).ready(function () {
     $(".overlay").fadeOut(300);
     $(".card.expandable.opened").removeClass("z-depth-5");
     $(".card-action-top.trigger-close i").html("more_vert").parent().removeClass("trigger-close");
-
     $(".card.expandable.opened").animate({
-      "width": $(".card.expandable.opened").data("width"),
-      "height": $(".card.expandable.opened").data("height"),
-      "left": $(".card.expandable.opened").data("left"),
-      "top": $(".card.expandable.opened").data("top"),
+      "width": $(".card.expandable.opened").attr("data-width"),
+      "height": $(".card.expandable.opened").attr("data-height"),
+      "left": $(".card.expandable.opened").attr("data-left"),
+      "top": $(".card.expandable.opened").attr("data-top")
     }, 500, $.easie(0.05, 0.1, 0.1, 1.0), function () {
 
       $(".card.expandable.opened").css({
@@ -153,7 +152,6 @@ $(document).ready(function () {
 
   $("html").on("click", ".card.expandable:not(.opened)", function () {
     //if ($(this).hasClass("opened")) return;
-    console.log("ciao");
     let top = $(this).offset().top;
     let left = $(this).offset().left;
     let width = $(this).outerWidth(true);
