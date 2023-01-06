@@ -231,9 +231,9 @@ nav.sidenav{
 }
 
 .card{
+  @extend .border-radius;
   display: block;
   padding: 2.2rem;
-  border-radius: 1.2rem;
   box-sizing: border-box;
   background-blend-mode: hard-light;
   position: relative;
@@ -325,8 +325,8 @@ nav.sidenav{
     }
 
     .card-header{
+      @extend .border-radius;
       transition: all 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0);
-      border-radius: 1.2rem;
       padding: 1rem 2rem;
       background-color: $palette-primary90 !important;
 
@@ -337,7 +337,6 @@ nav.sidenav{
       z-index: 999;
       overflow-y: hide;
       @media #{$small-and-down}{
-        border-radius: 0px;
         .card-header{
           border-top-left-radius: 0px;
           border-top-right-radius: 0px;
@@ -755,7 +754,7 @@ nav.sidenav{
 
 .accordion{
   margin: 0rem 0.5rem;
-  border-radius: 1.2rem !important;
+  @extend .border-radius;
   overflow: hidden;
   position: relative;
 
@@ -783,7 +782,7 @@ nav.sidenav{
     @media #{$medium-and-down}{
         height: 0px;
         overflow: hidden;
-        transition: height 0.5s ease-in;
+        transition: height 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0);
       }
   }
 
@@ -828,4 +827,10 @@ nav.sidenav{
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.30), 0px 8px 12px 6px rgba(0,0,0,0.15);
 }
 
+.border-radius{
+  border-radius: 1.2rem;
+}
 
+.border-sharp{
+  border-radius: 0px !important;
+}
