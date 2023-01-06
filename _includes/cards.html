@@ -3,7 +3,7 @@
 {% for card in row.items %}
   <div class="col {{card.size}}">
     <div class="card {{card.style}} {{include.data.style}}">
-      <h3>{{card.title}}</h3>
+      <h3 class="card-title">{{card.title}}</h3>
       {% if card.icon %}
         <i class="material-symbols-outlined">{{card.icon}}</i>
       {% endif %}

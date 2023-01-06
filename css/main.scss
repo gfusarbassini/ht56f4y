@@ -62,7 +62,17 @@ body {
 
 }
 
+h1, h2, h3{
+  font-family: 'Roboto Mono';
+}
 
+.roboto{
+  font-family: 'Roboto Mono';
+}
+
+.montserrat{
+  font-family: 'Montserrat';
+}
 
 nav.sidenav{
   position: fixed;
@@ -76,7 +86,7 @@ nav.sidenav{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: max-width 0.3s ease-in-out, left 0.3s ease-in-out;
+  transition: max-width 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0), left 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0);
   padding: 20px 0px;
 
   @media #{$small-and-down}{
@@ -138,7 +148,7 @@ nav.sidenav{
         @media #{$medium-and-up}{
           opacity: 0;
         }
-        transition: opacity 0.3s ease-in-out;
+        transition: opacity 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0);
       }
     }
 
@@ -228,13 +238,17 @@ nav.sidenav{
   background-blend-mode: hard-light;
   position: relative;
   margin: 6px;
+
   h3{
     margin-bottom: 0.5rem;
   }
   &.small-title{
     h3{
       font-size: 1.2rem;
-      font-weight: 300;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+
     }
   }
 
@@ -280,7 +294,7 @@ nav.sidenav{
           }
           .card-subtitle{
             font-size: 0.9rem;
-            font-weight: 600;
+            font-weight: 400;
             opacity: 0.8;
           }
 
@@ -292,21 +306,43 @@ nav.sidenav{
   }
 
   &.expandable{
-    box-shadow: 0 4px 4px 0px rgba(#000, 0.0), 0px 8px 12px 6px rgba(#000, 0.0);
-    transition: box-shadow 0.5s ease-in-out;
-    .card-content{
-      display: none;
+    padding: 0px;
+    transition: box-shadow 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0), border-radius 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0);
+    justify-content: flex-start;
+    overflow: hidden;
+    @extend .z-depth-1;
+
+    &:not(.opened):hover{
+      @extend .z-depth-3;
+    }
+
+    &.primary{
+      .card-content{
+        background-color: $primary-container  !important;
+        flex: 1;
+      }
+
     }
 
     .card-header{
-      transition: all 0.3s ease;
+      transition: all 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0);
+      border-radius: 1.2rem;
+      padding: 1rem 2rem;
+      background-color: $palette-primary90 !important;
+
     }
 
     &.opened{
       position: fixed;
       z-index: 999;
       overflow-y: hide;
-
+      @media #{$small-and-down}{
+        border-radius: 0px;
+        .card-header{
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+        }
+      }
       .trigger-close{
         display: block;
         z-index: 999;
@@ -319,23 +355,32 @@ nav.sidenav{
         align-items: center;
         background-color: rgba(#fff,0.5);
       }
+      .card-content{
+        overflow-y: scroll;
+      }
     }
 
     .card-content{
-      overflow-y: scroll;
+      padding: 0rem 1rem;
+      margin: 1rem 1rem;
 
+      .reveal{
+        display: none;
+      }
 
       &::-webkit-scrollbar-track
       {
         background-color: transparent;
+        border-radius: 3px;
 
       }
 
       &::-webkit-scrollbar
       {
-        width: 7px;
-        background-color:transparent;
-      }
+
+        width: 6px;
+        left: 100px;
+        }
 
       &::-webkit-scrollbar-thumb
       {
@@ -343,11 +388,14 @@ nav.sidenav{
         border-radius: 3px;
       }
 
+      &::-webkit-scrollbar-thumb:hover
+      {
+        background-color: $palette-primary25;
+
+      }
     }
 
-    &.shadowed{
-      box-shadow: 0 3px 20px 0px rgba(#000, 0.15), 0px 12px 40px 6px rgba(#000, 0.12);
-    }
+
 
   }
 }
@@ -483,9 +531,6 @@ nav.sidenav{
 
 
 
-    @media #{$medium-and-down}{
-
-    }
   }
 
   .content{
@@ -611,8 +656,6 @@ nav.sidenav{
       @media #{$medium-and-down}{
         margin-top: 0.5rem;
         font-size: 8vw;
-        text-transform: uppercase;
-        letter-spacing: 2px;
       }
     }
 
@@ -693,22 +736,22 @@ nav.sidenav{
   .speaker-title{
     font-size: 1.3rem;
     font-weight: 700;
-    margin-top: 1.5rem;
     margin-bottom: 0.2rem;
   }
   .speaker-date{
     display: flex;
+    @extend .roboto;
     justify-content: start;
     align-items: center;
     gap: 0.3rem;
+    margin-bottom: 0.5rem;
     font-weight: 500;
     opacity: 0.7;
-    margin-bottom: 0.5rem;
     & > i{
       font-size: 1.2rem;
     }
     & > span{
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   }
 }
@@ -725,7 +768,7 @@ nav.sidenav{
     @media #{$medium-and-down}{
         height: 0px;
         overflow: hidden;
-        transition: height 0.5s ease-in-out;
+        transition: height 0.5s ease-in;
       }
   }
 
@@ -747,3 +790,27 @@ nav.sidenav{
   background-color: #000;
   opacity: 0.2;
 }
+
+
+
+.z-depth-1{
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.30), 0px 1px 3px 1px rgba(0,0,0,0.15);
+}
+
+.z-depth-2{
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.30), 0px 2px 6px 2px rgba(0,0,0,0.15);
+}
+
+.z-depth-3 {
+  box-shadow:  0px 1px 3px 0px rgba(0,0,0,0.30), 0px 4px 8px 3px rgba(0,0,0,0.15);
+}
+
+.z-depth-4 {
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.30), 0px 6px 10px 4px rgba(0,0,0,0.15);
+}
+
+.z-depth-5 {
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.30), 0px 8px 12px 6px rgba(0,0,0,0.15);
+}
+
+

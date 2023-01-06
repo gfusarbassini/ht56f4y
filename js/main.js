@@ -88,8 +88,8 @@ $(document).ready(function () {
           function () {
             return +$(this).outerHeight(true);
           }).get().reduce((acc, cur) => acc + cur, 0);
-        $(".activity-container.expanded").css("height", "0px").removeClass("collapsed").addClass("expanded");
-        $(".accordion-header").removeClass("collapsed").addClass("expanded")
+        $(".accordion-content.expanded").css("height", "0px").addClass("collapsed").removeClass("expanded");
+        $(".accordion-header", container).removeClass("collapsed").addClass("expanded");
         container.css("height", heights + "px").removeClass("collapsed").addClass("expanded");
         if ($("body").scrollTop() > $(this).offset().top) {
           $("body").animate({ scrollTop: $(this).offset().top - 50 }, 'ease');
@@ -125,9 +125,9 @@ $(document).ready(function () {
   $("html").on("click", ".overlay, .trigger-close", function () {
     const mediaQuery = window.matchMedia('(min-width: 600px)');
 
-    $(".card-content").fadeOut(300);
+    $(".card-content .reveal").fadeOut(300);
     $(".overlay").fadeOut(300);
-    $(".card.expandable.opened").removeClass("shadowed");
+    $(".card.expandable.opened").removeClass("z-depth-5");
     $(".card-action-top.trigger-close i").html("more_vert").parent().removeClass("trigger-close");
 
     $(".card.expandable.opened").animate({
@@ -156,25 +156,25 @@ $(document).ready(function () {
     console.log("ciao");
     let top = $(this).offset().top;
     let left = $(this).offset().left;
-    let width = $(this).outerWidth();
-    let height = $(this).outerHeight();
-    $(this).addClass("opened shadowed");
+    let width = $(this).outerWidth(true);
+    let height = $(this).outerHeight(true);
+    $(this).addClass("opened z-depth-5");
     $(this).css({ "top": top, "left": left, "width": width, "height": height, "justify-content": "flex-start" })
       .attr("data-top", top)
       .attr("data-left", left)
       .attr("data-width", width)
       .attr("data-height", height).removeClass("ripple");
     $(".overlay").fadeIn();
-    $(".card-content", this).delay(300).fadeIn();
+    $(".card-content .reveal", this).delay(300).fadeIn();
 
     const mediaQuery = window.matchMedia('(min-width: 600px)');
     if (mediaQuery.matches) {
 
       $(this).animate({
         "width": "50vw",
-        "height": "50vh",
+        "height": "70vh",
         "left": "25vw",
-        "top": "25vh"
+        "top": "15vh"
       }, 500, $.easie(0.05, 0.1, 0.1, 1.0));
 
     } else {
