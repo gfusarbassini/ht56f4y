@@ -1,0 +1,56 @@
+forms:
+  - id: registration
+    action: google_form_url
+    submit: submit_text
+    fields:
+    - id: committee
+      label: "Committee name"
+      type: text
+      name: google_form_name_1
+    - id: nc
+      label: NC
+      type: radio
+      name: google_form_radio_1
+    - id: lc
+      label: LC
+      type: radio
+      name: google_form_radio_1
+    textareas:
+    - id: teams
+      label: Teams
+      name: google_form_textarea_1
+
+  - id: confirmation
+    action: google_form_url
+    submit: submit_text
+    fields:
+    - id: committee
+      label: "Committee name"
+      type: text
+      name: google_form_name_1
+    - id: nc
+      label: NC
+      type: radio
+      name: google_form_radio_1
+    - id: lc
+      label: LC
+      type: radio
+      name: google_form_radio_1
+    - id: preliminaries_date
+      label: "Preliminaries date"
+      type: text
+      name: google_form_name_2
+    textareas:
+    - id: placement
+      label: "Team placement"
+      name: google_form_textarea_1
+
+  - id: observers
+    action: google_form_url
+    submit: submit_text
+    fields:
+
+  - id: partecipants
+    action: google_form_url
+    submit: submit_text
+    fields:

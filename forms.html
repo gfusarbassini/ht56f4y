@@ -1,0 +1,23 @@
+---
+
+layout: default
+title: Forms
+---
+
+{% include title.html data=site.data.forms.title %}
+
+
+{% for form in site.data.forms.forms %}
+  <form action="{{form.action}}">
+    <h3>{{form.id}}</h3>
+    {% for field in form.fields %}
+      <label for="{{field.id}}">{{field.label}}</label>
+      <input type="{{field.type}}" id="{{field.id}}" name="{{field.name}}"/><br/>
+    {% endfor %}
+    {% for textarea in form.textareas %}
+      <label for="{{textarea.id}}">{{textarea.label}}</label>
+      <textarea id="{{textarea.id}}" name="{{textarea.name}}"></textarea><br/>
+    {% endfor %}
+    <input type="submit" value="{{form.submit}}"/>
+  </form>
+{% endfor %}
