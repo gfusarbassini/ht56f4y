@@ -8,12 +8,17 @@ title: Forms
 
 
 {% for form in site.data.forms.forms %}
-  <form action="{{form.action}}">
+  <form action="{{form.action}}" method="post">
     <h3>{{form.id}}</h3>
+
     {% for field in form.fields %}
       <label for="{{field.id}}">{{field.label}}</label>
-      <input type="{{field.type}}" id="{{field.id}}" name="{{field.name}}"/><br/>
+      <input type="{{field.type}}" id="{{field.id}}" name="{{field.name}}" value="{{field.value}}"/><br/>
     {% endfor %}
+
+    <input type="hidden" id="subject" name="_subject" value="{{form.subject}}"/>
+    <input type="hidden" id="next" name="_next" value="{{site.url}}"/>
+
     {% for textarea in form.textareas %}
       <label for="{{textarea.id}}">{{textarea.label}}</label>
       <textarea id="{{textarea.id}}" name="{{textarea.name}}"></textarea><br/>

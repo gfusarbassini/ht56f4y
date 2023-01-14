@@ -1,53 +1,60 @@
 forms:
   - id: registration
-    action: google_form_url
-    submit: submit_text
+    action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"
+    subject: "[plancks][registration] New entry"
+    submit: Submit
     fields:
     - id: committee
       label: "Committee name"
       type: text
-      name: google_form_name_1
+      name: committee
     - id: nc
       label: NC
       type: radio
-      name: google_form_radio_1
+      name: committee_type
+      value: nc
     - id: lc
       label: LC
       type: radio
-      name: google_form_radio_1
+      name: committee_type
+      value: lc
     textareas:
     - id: teams
       label: Teams
-      name: google_form_textarea_1
+      name: teams
 
   - id: confirmation
-    action: google_form_url
-    submit: submit_text
+    action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"
+    subject: "[plancks][confirmation] New entry"
+    submit: Submit
     fields:
     - id: committee
       label: "Committee name"
       type: text
-      name: google_form_name_1
+      name: committee
     - id: nc
       label: NC
       type: radio
-      name: google_form_radio_1
+      name: committee_type
+      value: nc
     - id: lc
       label: LC
       type: radio
-      name: google_form_radio_1
+      name: committee_type
+      value: lc
     - id: preliminaries_date
       label: "Preliminaries date"
       type: text
-      name: google_form_name_2
+      name: preliminaries_date
     textareas:
     - id: placement
       label: "Team placement"
-      name: google_form_textarea_1
+      name: placement
 
   - id: observers
-    action: google_form_url
-    submit: submit_text
+    action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"
+    subject: "[plancks][observers] New entry"
+    submit: Submit
     fields:
       - id: name
         label: Name
@@ -75,8 +82,9 @@ forms:
         name: letter
 
   - id: partecipants
-    action: google_form_url
-    submit: submit_text
+    action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"
+    subject: "[plancks][partecipants] New entry"
+    submit: Submit
     fields:
       - id: name
         label: Name
