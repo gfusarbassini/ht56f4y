@@ -222,6 +222,7 @@ schedule:
      - title: Check-out
        description: ""
        time: "13:30/15:00"
+
        location: 
        link: ""
 
