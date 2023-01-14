@@ -49,8 +49,56 @@ forms:
     action: google_form_url
     submit: submit_text
     fields:
+      - id: name
+        label: Name
+        type: text
+        name: name
+      - id: surname
+        label: Surname
+        type: text
+        name: surname
+      - id: birthday
+        label: Birthday
+        type: date
+        name: birthday
+      - id: committee
+        label: Committee
+        type: text
+        name: committee
+      - id: year
+        label: "Study year"
+        type: number
+        name: year
+    textareas:
+      - id: letter
+        label: "Motivational letter"
+        name: letter
 
   - id: partecipants
     action: google_form_url
     submit: submit_text
     fields:
+      - id: name
+        label: Name
+        type: text
+        name: name
+      - id: surname
+        label: Surname
+        type: text
+        name: surname
+      - id: birthday
+        label: Birthday
+        type: date
+        name: birthday
+      - id: committee
+        label: Committee
+        type: text
+        name: committee
+      - id: team
+        label: Team
+        type: text
+        name: team
+      - id: year
+        label: "Study year"
+        type: number
+        name: year
