@@ -1,27 +1,32 @@
 forms:
   - id: registration
-    action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"
-    subject: "[plancks][registration] New entry"
+    action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdsDRLDSek85W4HazRMN0TBYVOooB67gpwkkfVW3SqdV1_ITA/formResponse"
     submit: Submit
     fields:
     - id: committee
       label: "Committee name"
       type: text
-      name: committee
-    - id: nc
-      label: NC
-      type: radio
-      name: committee_type
-      value: nc
-    - id: lc
-      label: LC
-      type: radio
-      name: committee_type
-      value: lc
+      name: entry.1798647217
+      required: true
+    - id: email
+      label: Email
+      type: text
+      name: entry.2035072992
+      required: true
+    - id: date
+      label: "Preliminaries date"
+      type: text
+      name: entry.400057823
+      required: true
     textareas:
     - id: teams
       label: Teams
-      name: teams
+      name: entry.1074044697
+      required: true
+    - id: notes
+      label: "Additional notes"
+      name: entry.603835159
+      required: false
 
   - id: confirmation
     action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"

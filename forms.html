@@ -13,15 +13,20 @@ title: Forms
 
     {% for field in form.fields %}
       <label for="{{field.id}}">{{field.label}}</label>
-      <input type="{{field.type}}" id="{{field.id}}" name="{{field.name}}" value="{{field.value}}"/><br/>
+      {% if field.required == true %}
+        <input type="{{field.type}}" id="{{field.id}}" name="{{field.name}}" value="{{field.value}}" required /><br/>
+      {% else %}
+      <input type="{{field.type}}" id="{{field.id}}" name="{{field.name}}" value="{{field.value}}" /><br/>
+      {% endif %}
     {% endfor %}
-
-    <input type="hidden" id="subject" name="_subject" value="{{form.subject}}"/>
-    <input type="hidden" id="next" name="_next" value="{{site.url}}"/>
 
     {% for textarea in form.textareas %}
       <label for="{{textarea.id}}">{{textarea.label}}</label>
-      <textarea id="{{textarea.id}}" name="{{textarea.name}}"></textarea><br/>
+      {% if textarea.required == true %}
+        <textarea id="{{textarea.id}}" name="{{textarea.name}}" required></textarea><br/>
+      {% else %}
+        <textarea id="{{textarea.id}}" name="{{textarea.name}}"></textarea><br/>
+      {% endif %}
     {% endfor %}
     <input type="submit" value="{{form.submit}}"/>
   </form>
