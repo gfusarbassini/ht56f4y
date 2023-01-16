@@ -2,195 +2,227 @@ schedule:
  - day: 1
    date: Friday, 12<span class="super">th</span>
    activities:
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Check-in
+       description: ""
+       time: "11:30/13:00"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Opening Ceremony
+       description: ""
+       time: "14:00/15:00"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Guest Lecture
+       description: ""
+       time: "15:30/17:00"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Planetarium Show
+       description: ""
+       time: "17:30/19:00"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Free Dinner
+       description: ""
+       time: "20:00/21:00"
+       location: 
+       link: ""
 
  - day: 2
    date: Saturday, 13<span class="super">th</span>
    activities:
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Breakfast
+       description: ""
+       time: "07:30/08:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Student Session
+       description: ""
+       time: "09:30/10:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Laboratory Visits
+       description: ""
+       time: "10:30/12:15"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Workshop
+       description: ""
+       time: "12:15/13:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Lunch
+       description: ""
+       time: "13:30/14:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Guest Lecture
+       description: ""
+       time: "15:15/16:45"
+       location: 
+       link: ""
 
+     - title: Coffee Break
+       description: ""
+       time: "16:45/17:15"
+       location: 
+       link: ""
+       
+     - title: Guest Lecture
+       description: ""
+       time: "17:15/18:45"
+       location: 
+       link: ""
+       
+     - title: Dinner
+       description: ""
+       time: "19:00/20:00"
+       location: 
+       link: ""
+
+     - title: Concert
+       description: ""
+       time: "20:30/22:00"
+       location: 
+       link: ""
+    
  - day: 3
    date: Sunday, 14<span class="super">th</span>
    activities:
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Breakfast
+       description: ""
+       time: "07:30/08:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Competition
+       description: ""
+       time: "09:00/13:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Lunch
+       description: ""
+       time: "13:30/14:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: City Games
+       description: ""
+       time: "14:30/18:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
-
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Dinner
+       description: ""
+       time: "20:30/22:00"
+       location: 
+       link: ""
 
  - day: 4
    date: Monday, 15<span class="super">th</span>
    activities:
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Breakfast
+       description: ""
+       time: "07:30/08:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Poster Session
+       description: ""
+       time: "09:00/10:00"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Guest Lecture
+       description: ""
+       time: "10:15/11:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Coffee Break
+       description: ""
+       time: "11:30/12:00"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Guest Lecture
+       description: ""
+       time: "12:00/13:15"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Packed Lunch
+       description: ""
+       time: "13:15/14:30"
+       location: 
+       link: ""
+       
+     - title: Laboratory Visits
+       description: ""
+       time: "15:00/18:00"
+       location: 
+       link: ""
 
+     - title: Social Dinner
+       description: ""
+       time: "20:00/21:00"
+       location: 
+       link: ""
+
+     - title: Social Activities
+       description: ""
+       time: "21:00/22:30"
+       location: 
+       link: ""
+       
  - day: 5
    date: Tuesday, 16<span class="super">th</span>
    activities:
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Breakfast
+       description: ""
+       time: "07:30/08:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Solution Explanation
+       description: ""
+       time: "09:00/10:00"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Coffee Break
+       description: ""
+       time: "10:00/10:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Guest Lecture
+       description: ""
+       time: "10:30/11:45"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Closing Ceremony
+       description: ""
+       time: "12:15/13:30"
+       location: 
+       link: ""
 
-     - title: Welcome Cerimony
-       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-       time: "9:30 am"
-       location: University of Milan, Physics Department
-       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
+     - title: Check-out
+       description: ""
+       time: "13:30/15:00"
+
+       location: 
+       link: ""
 
