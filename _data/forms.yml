@@ -4,7 +4,7 @@ forms:
     submit: Submit
     fields:
     - id: committee
-      label: "Committee name"
+      label: "Committee name (preceded by LC or NC for local or national committees) or IM for individual members"
       type: text
       name: entry.1798647217
       required: true
@@ -18,73 +18,125 @@ forms:
       type: text
       name: entry.400057823
       required: true
-    textareas:
     - id: teams
       label: Teams
+      type: textarea
       name: entry.1074044697
       required: true
     - id: notes
       label: "Additional notes"
+      type: textarea
       name: entry.603835159
       required: false
 
   - id: confirmation
-    action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"
-    subject: "[plancks][confirmation] New entry"
+    action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe-YGAa6NG_kllo8Yy2g8g0aueRvq3hVg14fkS75WTePo_PCw/formResponse"
     submit: Submit
     fields:
     - id: committee
-      label: "Committee name"
+      label: "Committee name (preceded by LC or NC for local or national committees) or IM for individual members"
       type: text
-      name: committee
-    - id: nc
-      label: NC
-      type: radio
-      name: committee_type
-      value: nc
-    - id: lc
-      label: LC
-      type: radio
-      name: committee_type
-      value: lc
-    - id: preliminaries_date
+      name: entry.511201573
+      required: true
+    - id: date
       label: "Preliminaries date"
       type: text
-      name: preliminaries_date
-    textareas:
+      name: entry.2117408212
+      required: true
     - id: placement
       label: "Team placement"
-      name: placement
+      type: textarea
+      name: entry.492904529
+      required: true
+    - id: notes
+      label: "Additional notes"
+      type: textarea
+      name: entry.1943471425
+      required: false
 
   - id: observers
-    action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"
+    action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSffwrX51T0QKomPDxfJ9_BO7Rvhd1EIvq4AMSPAz9pBJO8wBA/formResponse"
     subject: "[plancks][observers] New entry"
     submit: Submit
     fields:
       - id: name
         label: Name
         type: text
-        name: name
+        name: entry.1037934396
+        required: true
       - id: surname
         label: Surname
         type: text
-        name: surname
+        name: entry.1292320118
+        required: true
       - id: birthday
         label: Birthday
         type: date
-        name: birthday
+        name: entry.857060685
+        required: true
+      - id: visa
+        label: "Need to request visa?"
+        type: checkbox
+        value: true
+        name: entry.1263609753
+        required: false
       - id: committee
         label: Committee
         type: text
-        name: committee
+        name: entry.1650588131
+        required: true
+      - id: university
+        label: University
+        type: text
+        name: entry.959277855
+        required: true
       - id: year
         label: "Study year"
         type: number
-        name: year
-    textareas:
+        name: entry.1425691572
+        required: true
       - id: letter
         label: "Motivational letter"
-        name: letter
+        type: textarea
+        name: entry.555211936
+        required: true
+      - id: presentation
+        label: "Want to give a presentation?"
+        type: checkbox
+        value: true
+        name: entry.1524629493
+        required: false
+      - id: presentation_title
+        label: "Presentation title"
+        type: text
+        name: entry.1256475891
+        required: false
+      - id: presentation_abstract
+        label: "Presentation abstract"
+        type: textarea
+        name: entry.738682288
+        required: false
+      - id: poster
+        label: "Want to present a poster?"
+        type: checkbox
+        value: true
+        name: entry.1232237956
+        required: false
+      - id: poster_title
+        label: "Poster title"
+        type: text
+        name: entry.1852623678
+        required: false
+      - id: poster_abstract
+        label: "Poster abstract"
+        type: textarea
+        name: entry.1043013879
+        required: false
+      - id: notes
+        label: "Additional notes"
+        type: textarea
+        name: entry.1725573787
+        required: false
 
   - id: partecipants
     action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"
