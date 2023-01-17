@@ -22,10 +22,10 @@ schedule:
        link: ""
 
      - title: Planetarium Show
-       description: ""
+       description: "What has inspired scientists and physicists for centuries could not miss for sure: the stars will capture your gaze. Will you be able to recognize the constellations that shine in the sky of your house every night? Don't worry! The rain won't stop you from enjoying it, either."
        time: "17:30/19:00"
-       location: 
-       link: ""
+       location: L'officina del Planetario
+       link: "https://www.google.it/maps/place/Civico+Planetario+Ulrico+Hoepli/@45.4737426,9.2014577,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c3e482ad05b3:0xd894d85b45423446!8m2!3d45.4737426!4d9.2036464"
 
      - title: Free Dinner
        description: ""
@@ -43,13 +43,13 @@ schedule:
        link: ""
 
      - title: Student Session
-       description: ""
+       description: "Do you want to share your thesis or your important work? You will have 15 minutes at your disposal to intrigue your listener. And for everyone else: you will travel through the most disparate fields of physics in one of the most exclusive places in Milan."
        time: "09:30/10:30"
        location: 
        link: ""
 
      - title: Laboratory Visits
-       description: ""
+       description: "If you've come this far, it's not just because you want to have fun visiting Milan. That's why we will take you to the city's research laboratories of excellence, ranging from the university ones, like LASA and Bicocca, to the private ones, such as IBMstudios, not to mention the National Institute of Nuclear Physics and the oncology institute IFOM. And it doesn't end there..."
        time: "10:30/12:15"
        location: 
        link: ""
@@ -73,7 +73,7 @@ schedule:
        link: ""
 
      - title: Coffee Break
-       description: ""
+       description: "Don't drink coffee? Skip this section, then. I'm joking, of course! If you don't want your beloved brain to abandon you in the middle of a guest lecture, take the opportunity to have a sneak. And don't forget to make new friends and share what you have been loving the most about the event."
        time: "16:45/17:15"
        location: 
        link: ""
@@ -139,7 +139,7 @@ schedule:
        link: ""
 
      - title: Poster Session
-       description: ""
+       description: "Each of you has something important to say about physics, so why not tell it with a poster?"
        time: "09:00/10:00"
        location: 
        link: ""
@@ -151,7 +151,7 @@ schedule:
        link: ""
 
      - title: Coffee Break
-       description: ""
+       description: "Don't drink coffee? Skip this section, then. I'm joking, of course! If you don't want your beloved brain to abandon you in the middle of a guest lecture, take the opportunity to have a sneak. And don't forget to make new friends and share what you have been loving the most about the event."
        time: "11:30/12:00"
        location: 
        link: ""
@@ -169,7 +169,7 @@ schedule:
        link: ""
        
      - title: Laboratory Visits
-       description: ""
+       description: "If you've come this far, it's not just because you want to have fun visiting Milan. That's why we will take you to the city's research laboratories of excellence, ranging from the university ones, like LASA and Bicocca, to the private ones, such as IBMstudios, not to mention the National Institute of Nuclear Physics and the oncology institute IFOM. And it doesn't end there..."
        time: "15:00/18:00"
        location: 
        link: ""
@@ -202,7 +202,7 @@ schedule:
        link: ""
 
      - title: Coffee Break
-       description: ""
+       description: "Don't drink coffee? Skip this section, then. I'm joking, of course! If you don't want your beloved brain to abandon you in the middle of a guest lecture, take the opportunity to have a sneak. And don't forget to make new friends and share what you have been loving the most about the event."
        time: "10:00/10:30"
        location: 
        link: ""
