@@ -10,7 +10,7 @@ schedule:
        link: ""
 
      - title: Opening Ceremony
-       description: ""
+       description: "Like all opening ceremonies, it will be full of emotions. It will be the culmination of a lot of work and the beginning of a real adventure. Some of you will be tired from the journey. Don't worry! At the end of the five days, many others will join you."
        time: "14:00/15:00"
        location:
        link: ""
@@ -86,14 +86,14 @@ schedule:
      - title: Dinner
        description: ""
        time: "19:00/20:00"
-       location: 
-       link: ""
+       location: "Milan Conservatory"
+       link: "https://goo.gl/maps/aPFG6weN1s7PrWRx7"
 
      - title: Concert
        description: "Nietzsche said: “Without music, life would be a mistake”; Plancks as well. The Organizing Committee certainly cannot contradict a great philosopher like him. So here's the music, the classical one. In the splendid venue of the Milan Conservatory, the youth orchestra will offer a wonderful concert."
        time: "20:30/22:00"
-       location: 
-       link: ""
+       location: "Milan Conservatory"
+       link: "https://goo.gl/maps/aPFG6weN1s7PrWRx7"
     
  - day: 3
    date: Sunday, 14<span class="super">th</span>
@@ -124,10 +124,10 @@ Obviously, the observers will not sit idly by. The organizing committee has a pe
        link: ""
 
      - title: Dinner
-       description: ""
+       description: "One of the most exclusive places in Milan, with many new friends and good Italian food. That's why they call it “la dolce vita”."
        time: "20:30/22:00"
-       location: 
-       link: ""
+       location: "Carlsberg"
+       link: "https://goo.gl/maps/8UfC4cWnBtqanCrn8"
 
  - day: 4
    date: Monday, 15<span class="super">th</span>
@@ -146,23 +146,23 @@ Obviously, the observers will not sit idly by. The organizing committee has a pe
      - title: Guest Lecture
        description: "There are a few certain things in life, but one sure thing is that there will be a guest lecture on astrophysics. You could remain astonished discovering the lecturer. Follow our Instagram page to discover more."
        time: "10:15/11:30"
-       location: 
-       link: ""
+       location: "IBM Studios - Milan"
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Coffee Break
        description: "Don't drink coffee? Skip this section, then. I'm joking, of course! If you don't want your beloved brain to abandon you in the middle of a guest lecture, take the opportunity to have a sneak. And don't forget to make new friends and share what you have been loving the most about the event."
        time: "11:30/12:00"
-       location: 
-       link: ""
+       location: "IBM Studios - Milan"
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Guest Lecture
        description: "The problem with guest lectures is that they are never enough. One leads to another. Follow our Instagram page to discover more."
        time: "12:00/13:15"
-       location: 
-       link: ""
+       location: "IBM Studios - Milan"
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Packed Lunch
-       description: ""
+       description: "A trip isn't a real trip without a packed lunch."
        time: "13:15/14:30"
        location: 
        link: ""
@@ -174,16 +174,16 @@ Obviously, the observers will not sit idly by. The organizing committee has a pe
        link: ""
 
      - title: Social Dinner
-       description: "One of the most exclusive places in Milan, with many new friends and good Italian food. That's why they call it “la dolce vita”."
+       description: "It's what happens tonight that will remain in your heart. Just choose the right people to spend it with."
        time: "20:00/21:00"
-       location: 
-       link: ""
+       location: "IBM Studios - Milan"
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Social Activities
        description: "Is it luck or do you really know them all? Test yourself with the hilarious AISF games."
        time: "21:00/22:30"
-       location: 
-       link: ""
+       location: IBM Studios - Milan
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
        
  - day: 5
    date: Tuesday, 16<span class="super">th</span>
@@ -194,28 +194,28 @@ Obviously, the observers will not sit idly by. The organizing committee has a pe
        location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 
      - title: Solution Explanation
-       description: ""
+       description: "“The proof is trivial and is left as an exercise for the reader”? Not this time. "
        time: "09:00/10:00"
-       location: 
-       link: ""
+       location: IBM Studios - Milan
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Coffee Break
        description: "Don't drink coffee? Skip this section, then. I'm joking, of course! If you don't want your beloved brain to abandon you in the middle of a guest lecture, take the opportunity to have a sneak. And don't forget to make new friends and share what you have been loving the most about the event."
        time: "10:00/10:30"
-       location: 
-       link: ""
+       location: IBM Studios - Milan
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Guest Lecture
        description: "May, 16th, is the international day of light. Who knows if there will be a bright presentation? Follow our Instagram page to discover more."
        time: "10:30/11:45"
-       location: 
-       link: ""
+       location: IBM Studios - Milan
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Closing Ceremony
-       description: ""
+       description: "It is time to say goodbye, but in the heart, it is clear that this event has changed us forever. There are those who will emerge triumphant and those defeated, but certainly, everyone will leave happy, with many new friends and many new stories to tell."
        time: "12:15/13:30"
-       location: 
-       link: ""
+       location: IBM Studios - Milan
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Check-out
        description: ""
