@@ -12,11 +12,11 @@ schedule:
      - title: Opening Ceremony
        description: ""
        time: "14:00/15:00"
-       location: 
+       location:
        link: ""
 
      - title: Guest Lecture
-       description: ""
+       description: "The first guest lecture of the event... Should be something powerful like a hurricane... Follow our Instagram page to discover more."
        time: "15:30/17:00"
        location: 
        link: ""
@@ -28,7 +28,7 @@ schedule:
        link: "https://www.google.it/maps/place/Civico+Planetario+Ulrico+Hoepli/@45.4737426,9.2014577,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c3e482ad05b3:0xd894d85b45423446!8m2!3d45.4737426!4d9.2036464"
 
      - title: Free Dinner
-       description: ""
+       description: "A moment of pure relaxation. This dinner is not included in the program, everyone will be free to explore the city at their own pace or follow our taste guide in search of the best restaurant in Milan."
        time: "20:00/21:00"
        location: 
        link: ""
@@ -37,28 +37,27 @@ schedule:
    date: Saturday, 13<span class="super">th</span>
    activities:
      - title: Breakfast
-       description: ""
+       description: "Breakfast is the most important meal of the day"
        time: "07:30/08:30"
-       location: 
-       link: ""
+       location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 
      - title: Student Session
        description: "Do you want to share your thesis or your important work? You will have 15 minutes at your disposal to intrigue your listener. And for everyone else: you will travel through the most disparate fields of physics in one of the most exclusive places in Milan."
        time: "09:30/10:30"
-       location: 
-       link: ""
+       location: "University of Milan (Bicocca), Physics Department"
+       link: "https://www.google.it/maps/place/Dipartimento+di+Fisica+G.+Occhialini/@45.513263,9.208549,17z/data=!4m5!3m4!1s0x4786c74804afa1c1:0x4bc1905aefd36c27!8m2!3d45.5132593!4d9.2107377"
 
      - title: Laboratory Visits
        description: "If you've come this far, it's not just because you want to have fun visiting Milan. That's why we will take you to the city's research laboratories of excellence, ranging from the university ones, like LASA and Bicocca, to the private ones, such as IBMstudios, not to mention the National Institute of Nuclear Physics and the oncology institute IFOM. And it doesn't end there..."
        time: "10:30/12:15"
-       location: 
-       link: ""
+       location: "University of Milan (Bicocca), Physics Department"
+       link: "https://www.google.it/maps/place/Dipartimento+di+Fisica+G.+Occhialini/@45.513263,9.208549,17z/data=!4m5!3m4!1s0x4786c74804afa1c1:0x4bc1905aefd36c27!8m2!3d45.5132593!4d9.2107377"
 
      - title: Workshop
-       description: ""
+       description: "The PLANCKS bring together for a few days in the same city the brightest minds among Physics students from all over the world: therefore, the organizing committee considers contact with excellent working and research environments such as those established in the Milan area to be very fruitful. Sponsors will have the opportunity to introduce themselves and show to what extent physics falls within the most diverse fields. A moment of workshops like this allows students to get in touch with the world of work, discovering career possibilities that are often unknown."
        time: "12:15/13:30"
-       location: 
-       link: ""
+       location: "University of Milan (Bicocca), Physics Department"
+       link: "https://www.google.it/maps/place/Dipartimento+di+Fisica+G.+Occhialini/@45.513263,9.208549,17z/data=!4m5!3m4!1s0x4786c74804afa1c1:0x4bc1905aefd36c27!8m2!3d45.5132593!4d9.2107377"
 
      - title: Lunch
        description: ""
@@ -67,7 +66,7 @@ schedule:
        link: ""
 
      - title: Guest Lecture
-       description: ""
+       description: "There are two sides to every coin, man and his shadow, electrons and protons, good and evil, night and day, light and shadow. Only the food monopolies would be missing... Surely the first guest lecture will also have its opposite. Follow our Instagram page to discover more."
        time: "15:15/16:45"
        location: 
        link: ""
@@ -79,7 +78,7 @@ schedule:
        link: ""
        
      - title: Guest Lecture
-       description: ""
+       description: "They say that good things come in threes, bad things come in threes. But a guest lecture is always a piece of good news. Follow our Instagram page to discover more."
        time: "17:15/18:45"
        location: 
        link: ""
@@ -91,7 +90,7 @@ schedule:
        link: ""
 
      - title: Concert
-       description: ""
+       description: "Nietzsche said: “Without music, life would be a mistake”; Plancks as well. The Organizing Committee certainly cannot contradict a great philosopher like him. So here's the music, the classical one. In the splendid venue of the Milan Conservatory, the youth orchestra will offer a wonderful concert."
        time: "20:30/22:00"
        location: 
        link: ""
@@ -100,25 +99,26 @@ schedule:
    date: Sunday, 14<span class="super">th</span>
    activities:
      - title: Breakfast
-       description: ""
+       description: "Give a man a fish and you feed him for a day. Teach him to fish and you will feed him for life. Give a man breakfast, and you’ll make him happy"
        time: "07:30/08:30"
-       location: 
-       link: ""
+       location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 
      - title: Competition
-       description: ""
+       description: "Everything is beautiful, Milan is a wonderful city, the food is delicious and the people are very nice, but this is the moment when history is made. Who will be the winner of the tenth edition of PLANCKS? Let the challenge begin.
+Obviously, the observers will not sit idly by. The organizing committee has a perfect plan ready for them.
+"
        time: "09:00/13:30"
-       location: 
-       link: ""
+       location: "University of Milan, Physics Department"
+       link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
 
      - title: Lunch
-       description: ""
+       description: "Wasn't it written above that the observers would not be idle? Lunch is served, buon appetito!"
        time: "13:30/14:30"
        location: 
        link: ""
 
      - title: City Games
-       description: ""
+       description: "Do you know of a more enjoyable way to visit a new city? Milano awaits you."
        time: "14:30/18:30"
        location: 
        link: ""
@@ -133,10 +133,9 @@ schedule:
    date: Monday, 15<span class="super">th</span>
    activities:
      - title: Breakfast
-       description: ""
+       description: "You can tell how something will go by how it begins"
        time: "07:30/08:30"
-       location: 
-       link: ""
+       location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 
      - title: Poster Session
        description: "Each of you has something important to say about physics, so why not tell it with a poster?"
@@ -145,7 +144,7 @@ schedule:
        link: ""
 
      - title: Guest Lecture
-       description: ""
+       description: "There are a few certain things in life, but one sure thing is that there will be a guest lecture on astrophysics. You could remain astonished discovering the lecturer. Follow our Instagram page to discover more."
        time: "10:15/11:30"
        location: 
        link: ""
@@ -157,7 +156,7 @@ schedule:
        link: ""
 
      - title: Guest Lecture
-       description: ""
+       description: "The problem with guest lectures is that they are never enough. One leads to another. Follow our Instagram page to discover more."
        time: "12:00/13:15"
        location: 
        link: ""
@@ -175,13 +174,13 @@ schedule:
        link: ""
 
      - title: Social Dinner
-       description: ""
+       description: "One of the most exclusive places in Milan, with many new friends and good Italian food. That's why they call it “la dolce vita”."
        time: "20:00/21:00"
        location: 
        link: ""
 
      - title: Social Activities
-       description: ""
+       description: "Is it luck or do you really know them all? Test yourself with the hilarious AISF games."
        time: "21:00/22:30"
        location: 
        link: ""
@@ -190,10 +189,9 @@ schedule:
    date: Tuesday, 16<span class="super">th</span>
    activities:
      - title: Breakfast
-       description: ""
+       description: "Now, this here is the breakfast of champions."
        time: "07:30/08:30"
-       location: 
-       link: ""
+       location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 
      - title: Solution Explanation
        description: ""
@@ -208,7 +206,7 @@ schedule:
        link: ""
 
      - title: Guest Lecture
-       description: ""
+       description: "May, 16th, is the international day of light. Who knows if there will be a bright presentation? Follow our Instagram page to discover more."
        time: "10:30/11:45"
        location: 
        link: ""
