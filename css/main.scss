@@ -233,7 +233,7 @@ nav.sidenav{
 .card{
   @extend .border-radius;
   display: block;
-  padding: 2.2rem;
+  padding: 1.2rem;
   box-sizing: border-box;
   background-blend-mode: hard-light;
   position: relative;
@@ -440,6 +440,7 @@ nav.sidenav{
 
 .col{
   box-sizing: border-box;
+  width:100%;
   padding: 6px 0;
   .card.fullheight{
     height: 100%;
@@ -847,4 +848,34 @@ nav.sidenav{
 
 .border-sharp{
   border-radius: 0px !important;
+}
+
+
+/* dropdown faq */
+.dropdown {
+  display: block;
+  margin: auto;
+}
+.dropdown__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background .3s ease;
+    will-change: background;
+  &:hover {background: #8799ff;}
+  &::after {
+    content: '\f13a';
+    font: 20px 'FontAwesome';
+    transition: transform .5s ease;
+    will-change: transform;
+  }
+}
+.open .dropdown__top::after {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.dropdown__btm {
+    display: none;
 }
