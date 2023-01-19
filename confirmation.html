@@ -12,7 +12,7 @@ title: Confirmation
   {% if form.id != "confirmation" %}
     {% continue %}
   {% endif %}
-  <form action="">
+  <form action="{{form.action}}" method="post">
     <h3>{{form.id}}</h3>
 
     {% for field in form.fields %}
@@ -32,8 +32,8 @@ title: Confirmation
       {% endif %}
     {% endfor %}
 
-    <!--<input type="submit" value="{{form.submit}}"/> -->
-    <button type="submit" id="{{form.id}}">{{form.submit}}</button>
+    <input type="submit" value="{{form.submit}}"/>
+    <!--<button type="submit" id="{{form.id}}">{{form.submit}}</button> -->
   </form>
 
   <script>

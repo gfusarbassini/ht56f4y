@@ -12,7 +12,7 @@ title: Registration
   {% if form.id != "registration" %}
     {% continue %}
   {% endif %}
-  <form action="">
+  <form action="{{form.action}}" method="post">
     <h3>{{form.id}}</h3>
 
     {% for field in form.fields %}
@@ -32,8 +32,8 @@ title: Registration
       {% endif %}
     {% endfor %}
 
-    <!--<input type="submit" value="{{form.submit}}"/> -->
-    <button type="submit" id="{{form.id}}">{{form.submit}}</button>
+    <input type="submit" value="{{form.submit}}"/>
+    <!--<button type="submit" id="{{form.id}}">{{form.submit}}</button> -->
   </form>
 
   <script>
