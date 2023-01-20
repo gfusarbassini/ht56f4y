@@ -18,6 +18,14 @@
   - text: Preliminaries
     url: "/preliminaries"
     icon: quiz
+  - text: Registration
+    url: "/registration"
+    icon: "border_color"
+  - text: Observers
+    url: "/observers"
+    icon: "border_color"
+  - text: "Confirmation"
+    icon: "border_color"
 - nav-zone:
   - text: FAQ
     url: "/faq"

@@ -81,6 +81,7 @@ h1, h2, h3{
 nav.sidenav{
   position: fixed;
   z-index: 990;
+  min-width: 80vw;
   top: 0;
   bottom: 0;
   left: 0;
@@ -856,10 +857,13 @@ nav.sidenav{
 
 
 .form-field{
+
   position: relative;
   margin: 1rem 1rem;
- &-label{
-  position: absolute;
+
+  &-text + &-label,
+  &-textarea + &-label{
+    position: absolute;
     left: 1rem;
     top: 0.9rem;
     background: white;
@@ -890,7 +894,7 @@ nav.sidenav{
   font-family: "Montserrat";
   font-weight: bold;
   padding: 0rem 1rem;
-  &:focus {
+  &:focus, &:not(:placeholder-shown) {
     outline: none;
     border-color: $primary !important;
     & + .form-field-label {
@@ -1004,4 +1008,76 @@ background: linear-gradient(0deg, rgba(255,216,24,1) 0%, rgba(255,255,255,1) 100
     background: rgb(255,216,24)!important;
     & div{background: rgb(255,216,24)!important;}
   }
+}
+
+.form-field.form-checkbox{
+  position: relative;
+  margin: 1em;
+  text-align: left;
+
+  label{
+    cursor: pointer;
+    display: inline;
+    line-height: 1.55rem;
+    vertical-align: top;
+    font-family: "Montserrat";
+    font-weight: 600;
+    clear: both;
+    padding-left: 1px;
+    &:not(:empty) {
+      padding-left: 0.75rem;
+    }
+
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    &:before {
+      // box
+      width: 1.25rem;
+      height: 1.25rem;
+      background: #fff;
+      border: 2px solid #222;
+      border-radius: 0.125rem;
+      cursor: pointer;
+      transition: background .3s;
+    }
+
+    &:after {
+      // checkmark
+    }
+  }
+
+
+  input[type="checkbox"] {
+    outline: 0;
+    visibility: hidden;
+    width: 1.25rem;
+    margin: 0;
+    display: block;
+    float: left;
+    font-size: inherit;
+
+    &:checked {
+       + label:before{
+        background: $primary;
+        border-color: $primary;
+      }
+      + label:after {
+
+        $checkmark-size: 0.75rem;
+
+        transform: translate(0.3rem, 0.3rem) rotate(-45deg);
+        width: $checkmark-size;
+        height: $checkmark-size / 2;
+
+        border: 0.2rem solid white;
+        border-top-style: none;
+        border-right-style: none;
+      }
+    }
+}
 }
