@@ -4,8 +4,12 @@
   <div class="form-field form-{{field.type}}">
     {% if field.type == "textarea" %}
         <textarea class="form-field-textarea" id="{{field.id}}" name="{{field.name}}"  {% if field.required == true %} {% endif %}></textarea>
+    {% elsif (field.type == "text")  or (field.type == "date") or (field.type  == "number") %}
+        <input class="form-field-text" type="{{field.type}}" id="{{field.id}}" placeholder=" " name="{{field.name}}" value="{{field.value}}"  {% if field.required == true %} required {% endif %} />
+    {% elsif field.type == "checkbox" %}
+      <input class="form-field-checkbox" type="{{field.type}}" id="{{field.id}}" name="{{field.name}}" value="{{field.value}}"  {% if field.required == true %} required {% endif %} />
     {% else %}
-        <input class="form-field-text" type="{{field.type}}" id="{{field.id}}" name="{{field.name}}" value="{{field.value}}"  {% if field.required == true %} required {% endif %} />
+        <input type="{{field.type}}" id="{{field.id}}" placeholder=" " name="{{field.name}}" value="{{field.value}}"  {% if field.required == true %} required {% endif %} />
     {% endif %}
     <label class="form-field-label" for="{{field.id}}">{{field.label}}</label>
 

@@ -4,7 +4,7 @@ registration:
     submit: Submit
     fields:
     - id: committee
-      label: "Committee name (preceded by LC or NC for local or national committees) or IM for individual members"
+      label: "Committee name"
       type: text
       name: entry.1798647217
       required: true
