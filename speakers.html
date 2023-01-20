@@ -2,13 +2,21 @@
 
 layout: default
 title: Speakers
+
 ---
 
 {% include title.html data=site.data.speakers.title %}
 
 
 <div id="speakers" class="row">
-  {% for speaker in site.data.speakers.speakers %}
+  {% for real_speaker in site.data.speakers.speakers %}
+  {% if real_speaker.locked %}
+    <!--{% capture speaker %}{{site.data.speakers.locked}}{% endcapture %}-->
+    {% assign speaker = site.data.speakers.locked %}
+  {% else %}
+    <!--{% capture speaker %}{{real_speaker}}{% endcapture %}-->
+    {% assign speaker = real_speaker %}
+  {% endif %}
   <div class="col l5 m5 s15">
     <div class="card ripple horizontal circle-image primary expandable">
     <div class="card-header">

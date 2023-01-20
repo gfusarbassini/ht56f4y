@@ -6,15 +6,15 @@
   - text: Schedule
     url: "/schedule"
     icon: calendar_month
-  - text: Organizing Committee
-    url: "/organizing_committee"
-    icon: groups
+#  - text: Organizing Committee
+#    url: "/organizing_committee"
+#    icon: groups
   - text: Speakers
     url: "/speakers"
     icon: forum
-  - text: Sponsors
-    url: "/sponsors"
-    icon: sell
+#  - text: Sponsors
+#    url: "/sponsors"
+#    icon: sell
   - text: Preliminaries
     url: "/preliminaries"
     icon: quiz

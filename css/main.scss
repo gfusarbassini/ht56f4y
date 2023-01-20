@@ -33,7 +33,7 @@ li{
 
 a{
   text-decoration: none;
-  color: #000;
+  color: $primary;
 }
 
 
@@ -64,6 +64,10 @@ body {
 
 h1, h2, h3{
   font-family: 'Roboto Mono';
+}
+
+.black {
+  color: black;
 }
 
 .roboto{
@@ -616,12 +620,13 @@ nav.sidenav{
     @extend .card;
     background-color: rgba($primary-container, 0.5);
   }
-  padding: 5rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
   @media #{$small-and-down}{
     padding: 1rem;
   }
 
-  margin-top: 5rem;
   h2{
     color: $on-primary-container;
     margin-bottom: 2rem;
