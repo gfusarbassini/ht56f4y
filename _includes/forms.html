@@ -1,0 +1,19 @@
+<form action="{{include.form.action}}" method="post">
+
+  {% for field in include.form.fields %}
+  <div class="form-field form-{{field.type}}">
+    {% if field.type == "textarea" %}
+        <textarea class="form-field-textarea" id="{{field.id}}" name="{{field.name}}"  {% if field.required == true %} {% endif %}></textarea>
+    {% else %}
+        <input class="form-field-text" type="{{field.type}}" id="{{field.id}}" name="{{field.name}}" value="{{field.value}}"  {% if field.required == true %} required {% endif %} />
+    {% endif %}
+    <label class="form-field-label" for="{{field.id}}">{{field.label}}</label>
+
+  </div>
+  {% endfor %}
+
+  <div class="form-field form-submit">
+    <input type="submit" class="btn ripple" value="{{include.form.submit}}"/>
+  </div>
+  <!--<button type="submit" id="{{form.id}}">{{form.submit}}</button> -->
+</form>

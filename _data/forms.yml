@@ -1,5 +1,5 @@
-forms:
-  - id: registration
+registration:
+    id: registration
     action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdsDRLDSek85W4HazRMN0TBYVOooB67gpwkkfVW3SqdV1_ITA/formResponse"
     submit: Submit
     fields:
@@ -29,7 +29,8 @@ forms:
       name: entry.603835159
       required: false
 
-  - id: confirmation
+confirmation:
+    id: confirmation
     action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe-YGAa6NG_kllo8Yy2g8g0aueRvq3hVg14fkS75WTePo_PCw/formResponse"
     submit: Submit
     fields:
@@ -54,7 +55,8 @@ forms:
       name: entry.1943471425
       required: false
 
-  - id: observers
+observers:
+    id: observers
     action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSffwrX51T0QKomPDxfJ9_BO7Rvhd1EIvq4AMSPAz9pBJO8wBA/formResponse"
     subject: "[plancks][observers] New entry"
     submit: Submit
@@ -138,6 +140,7 @@ forms:
         name: entry.1725573787
         required: false
 
+partecipants:
   - id: partecipants
     action: "https://formsubmit.co/412b9e251527b5f3685be813299aff79"
     subject: "[plancks][partecipants] New entry"

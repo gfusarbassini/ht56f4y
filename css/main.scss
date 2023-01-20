@@ -848,3 +848,70 @@ nav.sidenav{
 .border-sharp{
   border-radius: 0px !important;
 }
+
+
+.form-field{
+  position: relative;
+  margin: 1rem 1rem;
+ &-label{
+  position: absolute;
+    left: 1rem;
+    top: 0.9rem;
+    background: white;
+    white-space: nowrap;
+    transform: translate(0, 0);
+    padding: 0.5rem;
+    transform-origin: 0 0;
+    transition: transform 120ms ease-in;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: $outline;
+    //line-height: 1.2;
+
+ }
+
+ &-text, &-textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border: 3px solid;
+  border-color: $outline;
+  padding: 0.75rem 0.5rem;
+  color: $primary;
+  background: transparent;
+  border-radius: 10px;
+  height: 4rem;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 0rem 1rem;
+  &:focus {
+    outline: none;
+    border-color: $primary !important;
+    & + .form-field-label {
+      transform: translate(0px, -1.55rem) scale(.8);
+      color: $primary !important;
+    }
+  }
+}
+
+&-textarea{
+  height: fit-content;
+  min-height: 15rem;
+  padding: 1rem 1rem;
+}
+
+&.form-submit .btn{
+  background-color: blue;
+  background-color: $primary;
+  color: $on-primary;
+  border: none;
+  height: 3rem;
+  padding: 0rem 2rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  @extend .z-depth-2;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+}
+}
