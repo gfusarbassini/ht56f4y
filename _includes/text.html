@@ -1,6 +1,8 @@
 {% for section in include.data %}
 <section class="text-section">
   <h2>{{section.title}}</h2>
-  <p>{{section.text}}</p>
+  {% for subsection in section.subsections %}
+    <p>{{subsection.text}}</p><br/>
+  {% endfor %}
 </section>
 {% endfor %}

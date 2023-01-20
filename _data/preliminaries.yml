@@ -1,0 +1,41 @@
+cards:
+  style: big-text small-title icon-top fullheight
+  rows:
+    - items:
+      - title: Where?
+        content:
+          - text: Milan
+        icon: explore
+        style: secondary
+        size: l4 m4 s12
+      - title: When?
+        content:
+          - text: 12<span class="super">th</span> - 16<span class="super">th</span> May
+        icon: event
+        style: secondary
+        size: l4 m4 s12
+      - title: Who?
+        content:
+          - text: 50 teams
+        icon: groups_2
+        style: secondary
+        size: l4 m4 s12
+
+sections:
+  - title: Who will represent your nation at PLANCKS in Milan?
+    subsections:
+      - text: "Every NC and LC that wants to organize some preliminaries, has to register it <b>by the 5th of February</b>. The <em>registration</em> consists in communicating the names of all the teams participating in the preliminaries (and the names of their components). This means that you should close your internal registration by this date. For this <em>registration</em>, a form on our website will be opened and you will be notified of that. Note that this is not a constraint for the course date of the preliminaries: they can take place either before or after the 5th of February!
+The day after the 5th of February, we will contact each NC and LC communicating the number of their teams that will be admitted to the finals. Each committee shall have the right to be represented by at least one team. More teams will be assigned by the OC considering the number of teams participating in the preliminaries of each NC or LC and the results of those committees at the previous editions of PLANCKS."
+      - text: "Once a preliminary is over, the Organizing NC or LC should communicate the ranking of the teams (<em>confirmation</em>) to the PLANCKS OC <b>within the 9th of April</b>. For this purpose, a <em>confirmation</em> form will be published on our website.
+As soon as the PLANCKS OC will receive it, formal invitations for the selected teams will be sent back to the NC or the LC."
+      - text: "Observers can apply individually <b>within the 5th of February</b> using the proper form that will soon be published on our website. The result of the selection of the observers will be available a few days after the 5th of February.
+Note: Participants cannot apply as observers."
+      - text: "This method has been chosen to meet the different needs of the NCs and LCs worldwide: students from nations where asking for a visa can take a lot of time, need an early <em>confirmation</em>, while committees in areas where no visa is required are free to organize preliminaries with no hurry."
+      - text: "The OC opens the competition to 50 teams. In the competition, each LC and each NC will have the opportunity to be represented by at least one team, the winner of the preliminaries.
+Being that the number of LCs and NCs of iaps is 46, the remaining places will be occupied by other teams selected with the criteria mentioned above."
+
+  - title: From Preliminaries to finals
+    subsections:
+      - text: "Obviously, at PLANCKS23 the rules decided in the extraordinary EGM of December 2020 and presented in <a href=\"https://www.iaps.info/wp-content/uploads/2021/01/PLANCKS-General-Rules-EGM-2020.pdf\">this document</a> will apply.
+The competition, fully in English, will last 4 hours and will be composed of 10 problems.
+In order to get ready for the final, we will put at your disposal the last editions’ problems."
